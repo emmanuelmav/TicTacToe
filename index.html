@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <header class="container">
+        <h1 class="heading">Tic<span>-</span>Tac</span><span>-</span>Toe</h1>
+        <!-- <div class="btn-container">
+            <button class="btn-o">O</button>
+            <button class="btn-x">X</button>
+        </div> -->
+        <p class="subheading">
+            <button class="game-btn">New Game</button>
+        </p>
+        <div class="players">
+            <div class="player-item">
+                <p class="player1">
+                    <label for="player1" id="play1">Player X</label>
+                </p>
+                <input type="text" id="player1">
+            </div>
+            <div class="players-item">
+                <p class="player2">
+                    <label for="player2" id="play2">Player O</label>
+                </p>
+                <input type="text" id="player2">
+            </div>
+        </div>
+        <div class="hidden" id="display"></div>
+    </header>
+    <main class="gameboard-grid">
+        <div class="box-1 box" id="one"></div>
+        <div class="box-2 box" id="two"></div>
+        <div class="box-3 box" id="three"></div>
+        <div class="box-4 box" id="four"></div>
+        <div class="box-5 box" id="five"></div>
+        <div class="box-6 box" id="six"></div>
+        <div class="box-7 box" id="seven"></div>
+        <div class="box-8 box" id="eight"></div>
+        <div class="box-9 box" id="nine"></div>
+    </main>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
