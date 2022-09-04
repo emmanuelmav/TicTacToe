@@ -1,4 +1,4 @@
-// 
+// Hope 
 const boxes = document.querySelectorAll('.box');
 const btn = document.querySelector('.game-btn');
 const one = document.querySelector('.box-1');
